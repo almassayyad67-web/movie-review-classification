@@ -1,0 +1,48 @@
+{
+  "dataset": "NLTK movie_reviews corpus",
+  "total_reviews": 2000,
+  "train_reviews": 1600,
+  "test_reviews": 400,
+  "accuracy": 0.845,
+  "classification_report": {
+    "neg": {
+      "precision": 0.859375,
+      "recall": 0.825,
+      "f1-score": 0.8418367346938775,
+      "support": 200.0
+    },
+    "pos": {
+      "precision": 0.8317307692307693,
+      "recall": 0.865,
+      "f1-score": 0.8480392156862745,
+      "support": 200.0
+    },
+    "accuracy": 0.845,
+    "macro avg": {
+      "precision": 0.8455528846153846,
+      "recall": 0.845,
+      "f1-score": 0.8449379751900761,
+      "support": 400.0
+    },
+    "weighted avg": {
+      "precision": 0.8455528846153847,
+      "recall": 0.845,
+      "f1-score": 0.844937975190076,
+      "support": 400.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "neg",
+    "pos"
+  ],
+  "confusion_matrix": [
+    [
+      165,
+      35
+    ],
+    [
+      27,
+      173
+    ]
+  ]
+}
